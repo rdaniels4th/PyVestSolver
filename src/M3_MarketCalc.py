@@ -1,7 +1,7 @@
 from math import pow
 
 # Input section with a switch for test mode or user input
-test_mode = True
+test_mode = False
 
 def calculate_expected_return(sigma, rho, sigma_market, expected_return_market, risk_free_rate):
     """Calculate expected return using the CAPM formula."""

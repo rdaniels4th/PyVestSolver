@@ -1,6 +1,6 @@
 from math import sqrt
 
-test_mode = True  # Set to True for test mode, False otherwise
+test_mode = False  # Set to True for test mode, False otherwise
 
 def calculate_bond_price(face_value, annual_coupon, bond_term_years, yield_to_maturity):
     total_price = 0

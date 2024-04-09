@@ -1,7 +1,7 @@
 from math import pow
 
 # Input section with a switch for test mode or user input
-test_mode = True
+test_mode = False
 
 def calculate_present_value(future_value, yield_to_maturity, years):
     """Calculate the present value of a future cash flow."""

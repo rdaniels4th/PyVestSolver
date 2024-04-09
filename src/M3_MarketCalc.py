@@ -1,5 +1,8 @@
 from math import pow
 
+# Input section with a switch for test mode or user input
+test_mode = True
+
 def calculate_expected_return(sigma, rho, sigma_market, expected_return_market, risk_free_rate):
     """Calculate expected return using the CAPM formula."""
     beta = sigma * rho / sigma_market
@@ -13,9 +16,6 @@ def calculate_portfolio_stats(weights, sigmas, expected_returns, correlations):
                                  for j in range(len(weights)) if i != j) 
                              for i in range(len(weights)))
     return portfolio_return, portfolio_variance**0.5
-
-# Input section with a switch for test mode or user input
-test_mode = False
 
 num_securities = int(input("Enter the number of securities: ")) if not test_mode else 2
 

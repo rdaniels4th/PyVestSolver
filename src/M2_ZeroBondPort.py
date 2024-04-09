@@ -1,5 +1,8 @@
 from math import pow
 
+# Input section with a switch for test mode or user input
+test_mode = True
+
 def calculate_present_value(future_value, yield_to_maturity, years):
     """Calculate the present value of a future cash flow."""
     return future_value / pow(1 + yield_to_maturity, years)
@@ -26,8 +29,6 @@ def find_weight_for_target_duration(target_duration, portfolio_weights, unspecif
             raise ValueError("Cannot achieve target duration with given bond options.")
     
     return x
-
-test_mode = False
 
 if test_mode:
     future_obligation = 10000000

@@ -49,7 +49,7 @@ The scripts within this repository make use of the `math` module, which is part 
 
 ## Contributions
 
-`PyVestSolver` is an open-source project under the MIT License, I warmly welcome contributions, suggestions for improvements, and discussions. Feel free to fork the repository, make your changes, and submit a pull request.
+`PyVestSolver` is an open-source project under the Apache License, I warmly welcome contributions, suggestions for improvements, and discussions. Feel free to fork the repository, make your changes, and submit a pull request.
 
 ## Acknowledgments
 
@@ -57,5 +57,5 @@ Repository created and maintained by **Royden Daniels **  with the hope of contr
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
